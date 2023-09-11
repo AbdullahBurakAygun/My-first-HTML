@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: rgb(59, 125, 62);
     margin: 0px;
@@ -37,4 +38,18 @@ body{
 #mainContainer{
     width: 1250px;
     margin: 0px auto;
+=======
+body{
+    background-color: rgb(59, 125, 62);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#introText{
+    color: #0000ff;
+}
+.highlight{
+    font-weight: bold;
+    color: #ff0000;
+>>>>>>> 8fec02cb0dc40520299b6ab28da23c8ec8610095
 }
