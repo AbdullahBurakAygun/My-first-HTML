@@ -11,3 +11,30 @@ body{
     font-weight: bold;
     color: #ff0000;
 }
+#introContainer{
+    width: 470px;
+    float:left; 
+}
+#introPicture{
+    float: left;
+}
+.reset{
+    clear: both;
+}
+#hobbyContainer{
+    width: 410px;
+    float: right;
+}
+#heroshot{
+    float: left;
+}
+#rave{
+    float: left;
+}
+.socialTumb{
+    float: left;
+}
+#mainContainer{
+    width: 850px;
+    margin: 0px auto;
+}
