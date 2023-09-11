@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(59, 125, 62);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#introText{
+    color: #0000ff;
+}
+.highlight{
+    font-weight: bold;
+    color: #ff0000;
+}
