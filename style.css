@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-body{
-    background-color: rgb(59, 125, 62);
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+HEAD
 #introText{
     color: #0000ff;
 }
@@ -13,43 +7,133 @@ body{
     color: #ff0000;
 }
 #introContainer{
+    padding: 30px; 
     width: 470px;
+    border-radius: 10px;
+    background-color: rgb(43, 50, 56);
     float:left; 
+    margin: 30px 0px 0px 30px;
+    color: azure;
 }
 #introPicture{
     float: left;
+    margin: 0px 0px 30px 0px;
+    border-style:groove;
+    border-color: black;
 }
 .reset{
     clear: both;
 }
 #hobbyContainer{
-    width: 410px;
+    padding: 30px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(43, 50, 56);
     float: right;
+    margin: 25px 220px 0px 0px;
+    color: azure;
 }
+
+#hobbyContainer h2{
+    margin: 0px 0px 0px 0px 
+}
+
 #heroshot{
     float: left;
+    margin: 0px 0px 30px 0px;
+    border-style:groove;
+    border-color: black;
 }
+
 #rave{
     float: left;
+    border-style:groove;
+    border-color: black;
+    margin: -230px 0px 0px 395px;
 }
-.socialTumb{
+#ski{
     float: left;
+    border-style:groove;
+    border-color: black;
+    margin: -230px 0px 0px 30px; 
 }
-#mainContainer{
-    width: 1250px;
-    margin: 0px auto;
-=======
+#instagram{
+    float: left;
+    width: 200px;
+    height: 56px;
+    background-color: rgb(43, 50, 56);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+#instagram img{
+    float: left;
+    width: 56px;
+    margin-right: 10px;
+}
+#instagram h2{
+    float: left;
+    color: azure;
+}
+
+#youtube{
+    float: left;
+    width: 200px;
+    height: 56px;
+    background-color: rgb(43, 50, 56);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#youtube img{
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+}
+
+#youtube h2{
+    float: left;
+    color: azure;
+}
+
+#pinterest{
+    float: left;
+    width: 200px;
+    height: 56px;
+    background-color: rgb(43, 50, 56);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#pinterest img{
+    float: left;
+    width: 56px;
+    margin-right: 10px;
+}
+#pinterest h2{
+    float: left;
+    color: azure;
+}
+#spotify{
+    float: left;
+    width: 200px;
+    height: 56px;
+    background-color: rgb(43, 50, 56);
+    border-radius: 10px;
+}
+#spotify img{
+    float: left;
+    width: 56px;
+    margin-right: 10px;
+}
+#spotify h2{
+    float: left;
+    color: azure;
+}
 body{
-    background-color: rgb(59, 125, 62);
+    background-color: rgb(59, 114, 125);
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-#introText{
-    color: #0000ff;
-}
-.highlight{
-    font-weight: bold;
-    color: #ff0000;
->>>>>>> 8fec02cb0dc40520299b6ab28da23c8ec8610095
+#mainContainer{
+    width: 1300px;
+    margin: 0px auto;
 }
