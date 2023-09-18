@@ -1,11 +1,20 @@
 HEAD
-#introText{
-    color: #0000ff;
-}
+
+
+/*Classes*/ 
 .highlight{
     font-weight: bold;
     color: #ff0000;
 }
+.reset{
+    clear: both;
+}
+
+/*Intro*/
+#introText{
+    color: #0000ff;
+}
+
 #introContainer{
     padding: 30px; 
     width: 470px;
@@ -15,15 +24,15 @@ HEAD
     margin: 30px 0px 0px 30px;
     color: azure;
 }
+
 #introPicture{
     float: left;
     margin: 0px 0px 30px 0px;
     border-style:groove;
     border-color: black;
 }
-.reset{
-    clear: both;
-}
+
+/*Hobby*/
 #hobbyContainer{
     padding: 30px;
     width: 150px;
@@ -37,7 +46,7 @@ HEAD
 #hobbyContainer h2{
     margin: 0px 0px 0px 0px 
 }
-
+/*Pictures*/
 #heroshot{
     float: left;
     margin: 0px 0px 30px 0px;
@@ -57,6 +66,7 @@ HEAD
     border-color: black;
     margin: -230px 0px 0px 30px; 
 }
+
 #instagram{
     float: left;
     width: 200px;
@@ -103,15 +113,18 @@ HEAD
     margin-bottom: 20px;
     border-radius: 10px;
 }
+
 #pinterest img{
     float: left;
     width: 56px;
     margin-right: 10px;
 }
+
 #pinterest h2{
     float: left;
     color: azure;
 }
+
 #spotify{
     float: left;
     width: 200px;
@@ -119,21 +132,25 @@ HEAD
     background-color: rgb(43, 50, 56);
     border-radius: 10px;
 }
+
 #spotify img{
     float: left;
     width: 56px;
     margin-right: 10px;
 }
+
 #spotify h2{
     float: left;
     color: azure;
+}
+
+#mainContainer{
+    width: 1300px;
+    margin: 0px auto;
 }
 body{
     background-color: rgb(59, 114, 125);
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#mainContainer{
-    width: 1300px;
-    margin: 0px auto;
-}
+
