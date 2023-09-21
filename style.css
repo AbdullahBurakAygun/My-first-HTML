@@ -1,20 +1,14 @@
-HEAD
 
-
-/*Classes*/ 
-.highlight{
-    font-weight: bold;
-    color: #ff0000;
+#introHead{
+    color: rgb(73, 160, 178);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#intro{
+    color: #ffffff;
 }
 .reset{
     clear: both;
 }
-
-/*Intro*/
-#introText{
-    color: #0000ff;
-}
-
 #introContainer{
     padding: 30px; 
     width: 470px;
@@ -22,12 +16,16 @@ HEAD
     background-color: rgb(43, 50, 56);
     float:left; 
     margin: 30px 0px 0px 30px;
-    color: azure;
 }
-
 #introPicture{
     float: left;
     margin: 0px 0px 30px 0px;
+    border-style:groove;
+    border-color: black;
+}
+#introPicture2{
+    float: left;
+    margin: 30px 0px 30px 0px;
     border-style:groove;
     border-color: black;
 }
@@ -58,13 +56,13 @@ HEAD
     float: left;
     border-style:groove;
     border-color: black;
-    margin: -230px 0px 0px 395px;
+    margin: -320px 0px 0px 610px;
 }
 #ski{
     float: left;
     border-style:groove;
     border-color: black;
-    margin: -230px 0px 0px 30px; 
+    margin: -320px 0px 0px 30px; 
 }
 
 #instagram{
@@ -147,6 +145,32 @@ HEAD
 #mainContainer{
     width: 1300px;
     margin: 0px auto;
+}
+#navigation{
+    height: 20px;
+    margin: 70px 0px 0px 0px;
+}
+#navigation a{
+    padding: 10px;
+    background:hwb(186 38% 39%);
+    color:#ffffff;
+    border-radius: 4px;
+}
+#navigation a:hover{
+   background: #c4313b;
+}
+#navigation2{
+    height: 20px;
+    margin: 100px 0px 0px 0px;
+}
+#navigation2 a{
+    padding: 10px;
+    background:hwb(186 38% 39%);
+    color:#ffffff;
+    border-radius: 4px;
+}
+#navigation2 a:hover{
+   background: #c4313b;
 }
 body{
     background-color: rgb(59, 114, 125);
